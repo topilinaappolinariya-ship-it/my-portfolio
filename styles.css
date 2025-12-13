@@ -27,7 +27,6 @@ body {
     padding: 0 20px;
 }
 
-/* Header & Navigation */
 header {
     background-color: white;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
@@ -78,7 +77,6 @@ nav {
     color: var(--primary-color);
 }
 
-/* Hero Section */
 .hero {
     padding: 150px 0 100px;
     background: linear-gradient(135deg, #f5f7ff 0%, #e3e6ff 100%);
@@ -148,7 +146,6 @@ nav {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* Sections */
 section {
     padding: 100px 0;
 }
@@ -174,7 +171,6 @@ section:nth-child(even) {
     margin: 0 auto;
 }
 
-/* About */
 .about-content {
     display: flex;
     align-items: flex-start;
@@ -229,8 +225,6 @@ section:nth-child(even) {
     margin-top: auto;
     align-self: flex-start;
 }
-
-/* Skills */
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -263,7 +257,6 @@ section:nth-child(even) {
     font-size: 1.5rem;
 }
 
-/* Portfolio */
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -292,7 +285,6 @@ section:nth-child(even) {
     background-color: white;
 }
 
-/* Contact */
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -351,7 +343,6 @@ textarea.form-control {
     resize: vertical;
 }
 
-/* Footer */
 footer {
     background-color: var(--dark-color);
     color: white;
@@ -410,7 +401,6 @@ footer {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* Responsive */
 @media (max-width: 992px) {
     .hero h1 {
         font-size: 2.5rem;
