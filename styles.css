@@ -225,6 +225,7 @@ section:nth-child(even) {
     margin-top: auto;
     align-self: flex-start;
 }
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
